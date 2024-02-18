@@ -1,0 +1,5 @@
+The final model we chose is a Random Forest Regressor with 100 estimators and maximum depth equal
+to 10. The best hyperparameters for this model, as for the ones from the other classes of models,
+have been found through a 5-fold cross-validation on our internal training set (the original training 
+set without the internal test set we obtained through partitioning). The choice of the unique
+final model, between the 6 models we obtained, was performed through a 10-fold cross-validation.
